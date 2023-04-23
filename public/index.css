@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+    overflow: hidden;
+}
+
+.products-container,
+.products-row,
+.products-list {
+    height: 100%;
+}
+
+.products-list {
+    overflow: auto;
+}
+.btn-check:checked+.btn {
+    outline: 4px solid lightgreen;
+    background-color: transparent;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.products-list {
+ 
+}
+
+.card {
+    overflow: hidden;
+}
